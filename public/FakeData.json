@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "coverImg": "https://i.ibb.co.com/VWhmLq6/Rectangle-1-2.png",
+    "title": "The Ultimate Guide to Fiverr Success",
+    "author": "John Doe",
+    "authorImg": "https://i.ibb.co.com/F3kqLrq/Ellipse-1.png",
+    "postedDate": "2023-11-21",
+    "readingTime": 10,
+    "hashtags": "#fiverr, #freelance, #makemoneyonline"
+  },
+  {
+    "id": 2,
+    "coverImg": "https://i.ibb.co.com/fMPS3gf/Rectangle-1-1.png",
+    "title": "How to Create a Killer Fiverr Gig",
+    "author": "Jane Smith",
+    "authorImg": "https://i.ibb.co.com/tDY8f09/Ellipse-1-2.png",
+    "postedDate": "2023-12-15",
+    "readingTime": 7,
+    "hashtags": "#fiverr, #gig, #freelancing"
+  },
+  {
+    "id": 3,
+    "coverImg": "https://i.ibb.co.com/8NvBVXc/Rectangle-1-3.png",
+    "title": "Level Up Your Fiverr Game",
+    "author": "Mike Johnson",
+    "authorImg": "https://i.ibb.co.com/tDY8f09/Ellipse-1-2.png",
+    "postedDate": "2024-01-08",
+    "readingTime": 12,
+    "hashtags": "#fiverr, #freelancing, #tips"
+  },
+  {
+    "id": 4,
+    "coverImg": "https://i.ibb.co.com/ykbzttk/Rectangle-2-2.png",
+    "title": "Fiverr Secrets Revealed",
+    "author": "Emily Davis",
+    "authorImg": "ttps://i.ibb.co.com/tDY8f09/Ellipse-1-2.png",
+    "postedDate": "2024-02-02",
+    "readingTime": 9,
+    "hashtags": "#fiverr, #secrets, #freelance"
+  },
+  {
+    "id": 5,
+    "coverImg": "https://i.ibb.co.com/0K7P8mT/Rectangle-3-1.png",
+    "title": "Master the Art of Fiverr",
+    "author": "Alex Brown",
+    "authorImg": "https://i.ibb.co.com/tDY8f09/Ellipse-1-2.png",
+    "postedDate": "2024-03-10",
+    "readingTime": 15,
+    "hashtags": "#fiverr, #masterclass, #freelancing"
+  }
+]
