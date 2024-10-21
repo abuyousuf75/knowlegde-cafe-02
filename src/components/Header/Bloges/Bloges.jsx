@@ -3,25 +3,24 @@ import { useState } from "react";
 import Blog from "../Blog/Blog";
 
 
-const Bloges = () => {
+const Bloges = ({ handelBookMark }) => {
+  const [bloges, setBloges] = useState([]);
 
-    const [bloges , setBloges] = useState([]);
+  useEffect(() => {
+    fetch("FakeData.json")
+      .then((res) => res.json())
+      .then((data) => setBloges(data));
+  }, []);
 
-    useEffect(() =>{
-        fetch('FakeData.json')
-        .then(res => res.json())
-        .then(data => setBloges(data))
-    },[])
-
-    console.log(bloges)
-    return (
-        <div className="md:w-2/3">
-            <h4>Bloges : {bloges.length}</h4>
-            {
-                bloges.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
-            }
-        </div>
-    );
+  console.log(bloges);
+  return (
+    <div className="md:w-2/3 ">
+      <h4>Bloges : {bloges.length}</h4>
+      {bloges.map((blog) => (
+        <Blog key={blog.id} handelBookMark={handelBookMark} blog={blog}></Blog>
+      ))}
+    </div>
+  );
 };
 
 export default Bloges;
